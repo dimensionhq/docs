@@ -1,72 +1,42 @@
 ---
 title: "Introduction"
-description: "Welcome to the Mintlify Starter Kit"
+description: "The collaboration platform for modern engineering teams"
 ---
 
-<Note>
-  Update the content in main branch of your docs repo, and your documentation page will automatically be updated. It's that simple!
-</Note>
+## Overview
 
-## Getting Started
+Dimension is a unified collaboration platform for modern engineering teams. It is a single platform for your entire software development lifecycle - from communication to deployment.
 
-Select from the following guides to learn more about how Mintlify can best suit your documentation.
+Dimension is built for developer experience - **100 millisecond** interactions, **keyboard-first** navigation, **real-time** collaboration and elegant design come out of the box.
 
-<CardGroup>
-  <Card title="Development" icon="rectangle-terminal" href="/development">
-    Run on your computer to see changes locally
-  </Card>
-  <Card title="Global Settings" icon="sliders" href="https://mintlify.com/docs/settings/global">
-    Customizing the theme, branding, and other global configurations
-  </Card>
-  <Card title="Page Titles and Metadata" icon="heading" href="https://mintlify.com/docs/settings/page">
-    Setting the title and metadata for navigation and SEO
-  </Card>
-  <Card title="Writing Content" icon="pen-nib" href="https://mintlify.com/docs/components/overview">
-    Introduction on how to add and edit content
-  </Card>
-  <Card title="Learn More" icon="ellipsis" href="/resources">
-    See more in the resources page
-  </Card>
+## Components
+
+Dimension's components combine seamlessly to form a unified collaboration platform.
+
+<CardGroup cols={2}>
+
+<Card title="Communication" icon="message" href="/communication">
+  Communication infrastructure built for modern engineering teams.
+</Card>
+
+<Card title="Code" icon="code" href="/components/code">
+  Browse through your codebase, make changes and collaborate with your team.
+</Card>
+
+<Card title="Cloud" icon="cloud" href="/components/cloud">
+  View, manage and deploy your cloud infrastructure directly from Dimension.
+</Card>
+
+<Card title="Projects" icon="rectangle-history" href="/components/projects">
+  Manage your projects, tasks and issues in one place.
+</Card>
+
+<Card title="Network" icon="server" href="/components/network">
+  Manage your domains, security, SSL and more.
+</Card>
+
+<Card title="Settings" icon="gear" href="/components/settings">
+  Manage billing, and permissions across all your platforms.
+</Card>
+
 </CardGroup>
-
-## Customization Checklist
-
-Learn more about you can fully customize the starter template for your own documentation
-
-<AccordionGroup>
-  <Accordion title="Change name">Update the `name` property in `mint.json` to the name of your company or product</Accordion>
-  <Accordion title="Customize the branding">
-    Branding mostly happens in the `mint.json` file. You can learn more about all available [configuration properties](https://mintlify.com/docs/settings/global).
-
-    #### Update the logo
-
-    Update `logo` folder with the light and dark version of your logo (can be svg or png).
-
-    <Note>Make sure that the path matches the values set in `logo` of `mint.json`</Note>
-
-    #### Customize the colors
-
-    Populate the `colors` object with colors that match your brand
-
-    #### Update the favicon
-
-    Change the `favicon.png` with an image of the favicon
-
-    #### Update footer social icons
-
-    Update `footerSocials` with the right `[platform]: [url]` key-value pair
-  </Accordion>
-  <Accordion title="Update the anchors">Update the `anchors` array in `mint.json` with the links that you want to emphasize</Accordion>
-  <Accordion title="Update or remove the API Reference">
-    Either update the pages in `api-reference` or remove it entirely
-
-    <Note>If removing the API Reference, make sure to also remove it from the `anchors` and `navigation` from `mint.json`</Note>
-
-  </Accordion>
-  <Accordion title="Update the topbar navigation items">
-    Update the `topbarCtaButton` and `topbarLinks` properties in `mint.json` to the links that matter most
-
-    <Tip>The `topbarCtaButton` will receive the most number of clicks</Tip>
-
-  </Accordion>
-</AccordionGroup>

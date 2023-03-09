@@ -1,36 +1,25 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Dimension",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#533BE5",
+    "light": "#533BE5",
+    "dark": "#533BE5"
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
   "topbarCtaButton": {
     "name": "Get Started",
     "url": "https://github.com/mintlify/starter"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/dimensionhq"
     },
     {
       "name": "Community",
@@ -40,30 +29,30 @@
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "development"]
+      "group": "Guide",
+      "pages": ["introduction", "guide/getting-started"]
     },
     {
-      "group": "Learn More",
-      "pages": ["features", "resources"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Communication",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "communication/overview",
+        "communication/getting-started",
+        "communication/features/real-time-messaging",
+        "communication/features/magic",
+        "communication/features/code-collaboration",
+        "communication/features/async-communication",
+        "communication/features/meetings",
+        "communication/features/activity",
+        {
+          "group": "Integrations",
+          "pages": ["communication/integrations/linear"]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "twitter": "https://twitter.com/joindimension",
+    "github": "https://github.com/dimensionhq",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }

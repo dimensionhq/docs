@@ -1,0 +1,73 @@
+---
+title: "Code Collaboration"
+description: "Code collaboration where you chat."
+---
+
+Dimension has powerful code collaboration tools that ensure you can work with, debug code, and recommend changes in real-time - all directly from chat.
+
+## Highlights
+
+- [**Share code snippets**](#send-code-snippets) with your team
+
+- [**Recommend changes**](#recommend-changes) to code directly from chat
+
+- [**Sync your changes with source control**](#sync-with-source-control) directly from chat
+
+## Send code snippets
+
+### Inline Code
+
+<Accordion title="Keyboard shortcuts" defaultOpen="true">
+
+Type the `` ` `` symbol followed by the code you want to send.
+
+</Accordion>
+
+You can send inline code by typing the `` ` `` symbol followed by the code you want to send. Close the inline code by typing the `` ` `` symbol again.
+
+### Code Blocks
+
+<Accordion title="Keyboard shortcuts" defaultOpen="true">
+
+Type the ` ``` ` symbol followed by the code you want to send.
+
+</Accordion>
+
+You can send code blocks by typing the ` ``` ` symbol followed by the code you want to send. Close the code block by typing the ` ``` ` symbol again.
+
+After typing the ` ``` ` symbol, you can also **specify the language** of the code block - note that Dimension will attempt to automatically detect the language of the code block if not explicitly specified.
+
+You can specify the language for the a code block like so: ` ```js ` - this will highlight the code block with the JavaScript language.
+
+## Recommend changes
+
+Recommend changes to code shared by others directly from chat.
+
+<Accordion title="Keyboard shortcuts" defaultOpen="true">
+
+Hover over the code snippet you want to recommend changes to and use `S` to recommend changes.
+
+</Accordion>
+
+Hover over the code snippet you want to recommend changes to and click on the **Recommend changes** button that appears.
+
+This will insert the code snippet into your message composer, where you can make changes to the code and send it back to the original sender.
+
+Dimension will automatically generate a [**diff**](https://en.wikipedia.org/wiki/Diff#Unified_format) of the changes you made to the code snippet - anyone in your channel can then expand the diff to view it.
+
+## Sync with source control
+
+If you're discussing code that is stored in a GitHub repository linked to the realm, you can sync recommended changes made to the code snippet with your source control system.
+
+You will be able to select which recommendations you want to incorporate into the final code snippet that will be pushed to your source control system.
+
+Finally, click the repository push button on the top right of the channel to push the changes to your source control system. You can also expand the diff to view the final code snippet that will be pushed to your source control system.
+
+<Warning>
+
+You will not be able to sync changes with source control if:
+
+- You do not have write access to the repository, or
+- There is a merge conflict between the recommendations selected
+
+</Warning>
